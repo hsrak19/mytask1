@@ -1,0 +1,30 @@
+button {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+            box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+   }
+   
+   button:hover {
+    -webkit-box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+            box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+   }
+   
+   button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    -webkit-box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+            box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+            transform: translateY(5px);
+    -webkit-transition: 200ms;
+    transition: 200ms;
+   }
